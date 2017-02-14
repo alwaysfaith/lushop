@@ -1,0 +1,766 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Generator" content="LUTION " />
+<meta name="Keywords" content="禄圣电商" />
+<meta name="Description" content="禄圣电商" />
+<title>禄圣电商，中国个性化礼品电商品牌！</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="public/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="pulic/js/common.js"></script>
+<script type="text/javascript" src="pulic/js/index.js"></script> 
+</head>
+<body>
+<script type="text/javascript" src="pulic/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="pulic/jquery/jquery.json.js"></script>
+<script type="text/javascript" src="pulic/js/jumei_common.js"></script>
+<script type="text/javascript" src="pulic/jquery/transport_jquery.js"></script>
+<script type="text/javascript" src="pulic/js/utils.js"></script>
+<script type="text/javascript" src="pulic/jquery/jquery.SuperSlide.js"></script> 
+<div id="Head">
+  <div id="headerTopArea" class="headerTopAreaBox">
+    <div class="headerTopArea">
+      <div class="headerTop">      
+       <div class="headerTopLeft">     
+ </div>
+ <div class="headerTopRight">
+  <span><a href="user.php" class="track">&nbsp;[请登录]&nbsp;</a><a href="javascript:;" class="track">&nbsp;[快速注册]&nbsp;</a></span><div>
+  </div>
+  </div> 
+  </div>
+</div>
+  </div>
+  <div class="LogoSearchBar" id="logoArea">
+    <div class="logoSearchSubnavArea">
+       <div class="w1000 heades" >
+        <div class="headlogo f_l"><a href="index.php" name="top"><img src="public/images/logo.gif" /></a></div>
+        <div class="headnav f_l">
+            <ul>
+               <li  class="track cur"><a href="index.php">首页</a></li>
+                                 <li  data="44" id="s44" class="track   "><a href="product.php"  >产品</a></li>
+                             <li  data="18" id="s18" class="track   "><a href="category.php?id=17"  >发现</a></li>
+                             <li  data="30" id="s30" class="track   "><a href="article_cat.php?id=1"  >服务</a></li>
+                         </ul>
+        </div>
+        <div class="headsearch f_l">
+            <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()">
+                <input name="keywords" type="text" id="keyword" value=""  placeholder="搜索你感兴趣的产品" class="head_input">
+                <input name="imageField" type="submit" value="" class="head_submit" style="cursor:pointer;">
+            </form>
+        </div>
+        <div class="menuTopRight">
+          <div id="shoppingCarNone" class="active"> <p><a class="shopborder track" href="flow.php" id="shoppingcar_link"><i><img src="public/images/cart.gif"/></i>去购物车结算<span car_product_total="shoppingCar_product_totalcount">0</span></a><s></s></p>
+<script>
+    var num=0;
+    $("#nums").text(num);
+</script>
+<div class="shopDropList"> 
+    <div class="shopnopru">
+    <div class="SCtotalpageno">购物车中还没有商品，<br />快去挑选心爱的商品吧</div>
+    <div class="SCtotalpageBottom"></div>
+  </div>
+   </div>
+ </div>
+        </div>
+       
+    </div>
+    </div>
+  </div>
+ </div>
+<script type="text/javascript">
+$(function(){
+      var scrollEvent=function(){
+            
+            $(window).scroll(function(){
+                var top=$(document).scrollTop();
+                if(top>0){
+                    $(".backtop").css("visibility","visible");
+                }else{
+                    $(".backtop").css("visibility","hidden");
+                }
+                if(top>700){
+                    $(".scrollnav_left").css("display","block");
+                }else{
+                    $(".scrollnav_left").css("display","none");
+                }
+            });
+            
+            $(".backtop").click(function(){
+                $("body,html").animate({scrollTop:0});
+            });
+        }
+        
+        scrollEvent();
+        
+    }()
+    
+    window.clone=function(){
+        $(".clone_here").html("");
+        var clone=$(".havepruMid").clone(true);
+        $(".clone_here").html(clone);
+        if($(".clone_here").children().length==0){
+            $(".clone_here").addClass("clone_here2");
+        }else{
+            $(".clone_here").removeClass("clone_here2");
+        }
+    }
+    clone();    
+});
+</script> 
+ 
+<script type="text/javascript" src="public/js/jumei_index.js"></script>
+<div class="content_wrap">
+    <div class="big_ads" style="height:410px;"> 
+<script type="text/javascript" src="public/js/Tony_Tab.js"></script>
+<div class="flexslider">
+    <ul class="slides" style="height:410px">
+                <li style="background:url(public/images/20151125ufkwlz.jpg) 50% 0 no-repeat;height:410px"><a href="http://"></a> </li>
+                <li style="background:url(public/images/20151125ffstaa.jpg) 50% 0 no-repeat;height:410px"><a href="http://"></a> </li>
+                <li style="background:url(public/images/20151125haxwri.jpg) 50% 0 no-repeat;height:410px"><a href="http://"></a> </li>
+          
+    </ul>
+    <ol class="flex-control-nav flex-control-paging">
+    <li><a class="flex-active">1</a></li>
+    <li><a>2</a></li>
+    <li><a>3</a></li></ol>
+</div>
+<script type="text/javascript" src="pulic/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="pulic/jquery/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.flexslider').flexslider({
+        directionNav: true,
+        pauseOnAction: false
+    });
+});
+</script> 
+ </div>
+</div>  
+<div class="dsfweq">
+    <div id="content" class="content clearfix">
+      <div class="creative1" ></div>
+      <div class="w1000 sdsf">
+<div class="left">
+<a href='javascript:;'
+                    target='_blank'><img src='public/images/1448554872293104238.jpg' width='304' height='440'
+                    border='0' /></a>
+</div>
+<div class="center">
+<a href='javascript:;'
+                    target='_blank'><img src='public/images/1449791499438264357.jpg' width='494' height='220'
+                    border='0' /></a>
+</div>
+<div class="right">
+<a href='javascript:;'
+                    target='_blank'><img src='public/images/1448555019650869660.jpg' width='384' height='480'
+                    border='0' /></a>
+</div>
+</div>
+<div class="creative2" ></div>
+</div>
+</div>
+<div  class="sdfw3e">
+ <div id="csst" class="content clearfix">
+   <div class="w1000">
+<div class="creative2_l f_l">
+            <div class="creative2_l_home">
+                <h2>HOME</h2>
+                <div  class="sdf">
+                时尚创意家居系列<br><span>Fashion creative home</span></div>
+                <div class="creative2_more"><a href="javascript:;" title="查看更多">查看更多</a></div>
+            </div>
+            <div class="creative_ad1">
+                
+<a href='javascript:;'
+                    target='_blank'><img src='public/images/1448556935173508554.jpg' width='314' height='514'
+                    border='0' /></a>
+            </div>
+        </div>
+            <div class="creative2_r f_r">
+             
+ 
+              <ul>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅3"><img src="public/images/3_thumb_G_1448410457133.jpg" alt="时尚series7木质座椅3" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=3" title="时尚series7木质座椅3">时尚series7木质座椅3</a></div>
+                    <div class="creative2_r_price">￥123</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/16_thumb_G_1448561024894.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=16" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/15_thumb_G_1448397986345.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=15" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥40</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅5"><img src="public/images/5_thumb_G_1448400609513.jpg" alt="时尚series7木质座椅5" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=5" title="时尚series7木质座椅5">时尚series7木质座椅5</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/6_thumb_G_1448410581274.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=6" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥123</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅44"><img src="public/images/7_thumb_G_1448410564668.jpg" alt="时尚series7木质座椅44" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=7" title="时尚series7木质座椅44">时尚series7木质座椅44</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                            </ul>
+ 
+</div>
+<div style="clear:both;"></div>
+</div>
+ <div class="w1000 twea" >
+<div class="creative2_r sdffds f_l" style="">
+             
+ 
+              <ul>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅3"><img src="public/images/3_thumb_G_1448410457133.jpg" alt="时尚series7木质座椅3" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=3" title="时尚series7木质座椅3">时尚series7木质座椅3</a></div>
+                    <div class="creative2_r_price">￥123</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/16_thumb_G_1448561024894.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=16" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/15_thumb_G_1448397986345.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=15" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥40</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅5"><img src="public/images/5_thumb_G_1448400609513.jpg" alt="时尚series7木质座椅5" ></a>
+                    <div class="creative2_r_name"><a href="goods.php?id=5" title="时尚series7木质座椅5">时尚series7木质座椅5</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅6"><img src="public/images/6_thumb_G_1448410581274.jpg" alt="时尚series7木质座椅6" ></a>
+                    <div class="creative2_r_name"><a href="#" title="时尚series7木质座椅6">时尚series7木质座椅6</a></div>
+                    <div class="creative2_r_price">￥123</div>
+                </li>
+                                <li>
+                    <a href="javascript:;" title="时尚series7木质座椅44"><img src="public/images/7_thumb_G_1448410564668.jpg" alt="时尚series7木质座椅44" ></a>
+                    <div class="creative2_r_name"><a href="#" title="时尚series7木质座椅44">时尚series7木质座椅44</a></div>
+                    <div class="creative2_r_price">￥0</div>
+                </li>
+                            </ul>
+ 
+        </div>
+        <div class="creative3_r f_r">
+              <div class="creative3_l_home">
+                <h2>TRAVEL</h2>
+                <div  class="sdf" style="text-align:right; padding-right:18px;">
+                潮流出行系列<br>
+                 <span>Fashion creative home</span></div>
+                <div class="creative2_more" style="padding-right:18px; text-align:center; margin-left:183px; margin-right:10px;"><a href="javascript:;" title="查看更多">查看更多</a></div>
+            </div>
+            <div class="creative_ad1"  >
+                    
+<a href='javascript:;'
+                    target='_blank'><img src='public/images/1448558416382256837.jpg' width='314' height='514'
+                    border='0' /></a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+</div>
+ 
+ </div>
+</div>
+<div  class="bsefd">
+ <div id="csst" class="content clearfix">
+    <div class="w1000 sdndf" >
+        <div class="creative4">创意聚焦</div>
+          <div class="w1000" style="margin-top:40px;border:#ebebeb 1px solid; overflow:hidden;">
+           ﻿
+   
+            <div class="creative4_l f_l">
+                <ul id="tag">
+                  
+                    <li class=""><span>1</span><a href="javascript:;" title="贴片电池Piece Battery">贴片电池Piece Battery</a></li>
+                    <li class=""><span>2</span><a href="javascript:;" title="每一个小角落的生命都应该被关怀">每一个小角落的生命都应该被关怀</a></li>
+                    <li class=""><span>3</span><a href="javascript:;" title="可以种植的铅笔">可以种植的铅笔</a></li>
+                    <li class=""><span>4</span><a href="javascript:;" title="一体绝配的勺筷">一体绝配的勺筷</a></li>
+                    <li class=""><span>5</span><a href="javascript:;" title="CES 2016:首款腕表投影显示 看片打机无压力">CES 2016:首款腕表投影显示 看片打机无压力</a></li>
+                    <li class=""><span>6</span><a href="javascript:;" title="浑然天成的染发剂广告">浑然天成的染发剂广告</a></li>
+                    <li class=""><span>7</span><a href="javascript:;" title="
+BevelCup">
+BevelCup</a></li>
+                    <li class=""><span>8</span><a href="javascript:;" title="“空中玻璃泳池">空中玻璃泳池</a></li>
+                </ul>
+            </div>
+            
+            <div class="creative4_r f_r">
+                <ul id="tagContent">
+                   
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>贴片电池（Piece Battery）</span></div>
+                                <div class="creative4_content">贴片电池（Piece Battery）是由Prof. Chai Chunlei等人带来的概念设计，这块电池可以像创可贴一样贴在电脑上，吸收热能，再转化为电能储存，还有实时电量显示。充满后贴到手机上，通过无线充电技术为手机充电。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title class="dsfww">0</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>每一个小角落的生命都应该被关怀</span></div>
+                                <div class="creative4_content">印度工业设计学生MargauxRuyant设计的一个诗意的骨灰盒“POETREE”。主体由软木和陶瓷制成，将骨灰，泥土和树苗一同种下，当小树逐渐长大，软木则分解在土壤中。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro2.jpg) no-repeat 202px 0px">1</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>可种植的铅笔</span></div>
+                                <div class="creative4_content">可种植铅笔完美诠释了什么是可持续。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="article.php?id=24" title="" class="dsfww" style="background:url(public/images/pro3.jpg) no-repeat 202px 0px">2</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>一体绝配的勺筷</span></div>
+                                <div class="creative4_content">力求在平凡中创造出非凡体验，独创是勺筷一体化新颖设计，将筷子和汤匙设计做到“一体绝配”，圆润设计下体现出大气严谨的气质。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro4.jpg) no-repeat 202px 0px">3</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>CES 2016:首款腕表投影显示 看片打机无压力</span></div>
+                                <div class="creative4_content">据悉，“一数”能投出 60 寸电视那么大的图像，是世界上正式问世的首款投影可穿戴产品。该产品采用全球最小的镭射激光投影仪模组，通过全新工艺进行研发和设计，实现了可穿戴产品的突破。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro5.jpg) no-repeat 202px 0px">4</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>浑然天成的染发剂广告</span></div>
+                                <div class="creative4_content">浑然天成的染发剂广告</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro6.jpg) no-repeat 202px 0px">5</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>
+BevelCup</span></div>
+                                <div class="creative4_content">2012年获得红点奖，解决了杯子的摆放存在的问题，即杯口向上灰尘会进入杯子、倒扣着杯子杯口直接接触桌面。灵感来源于芭蕾舞演员角度的锥杯，利用把手上的一个面的角度使得杯子既不会向上接灰尘也不会朝下接触到任何让你不放心的东西。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro7.jpg) no-repeat 202px 0px">6</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="creative4_r_l f_l">
+                            <div class="creative4_r_l_txt"> 
+                                <div class="creative4_title"><br><br><span>空中玻璃泳池</span></div>
+                                <div class="creative4_content">世界第一的一座27米长的玻璃泳池即将在英国伦敦建设，这个泳池结构将被悬置在离地十层高的
+地方，约33.5米高，架在两幢公寓楼之间，可以从这边游到那边。泳池将给人们带来非常独特的
+体验，会让人感觉自己就浮在伦敦市中心的上空。</div>
+                            </div>
+                        </div>
+                        <div class="creative4_r_r f_r">
+                            <a href="javascript:;" title="" class="dsfww" style="background:url(public/images/pro8.jpg) no-repeat 202px 0px">7</a>
+                            <div class="creative4_r_r_icon">
+                                <div class="creative4_r_r_icon1">86</div>
+                                <div class="creative4_r_r_icon2">98</div>
+                                <div class="creative4_r_r_icon3">220</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+      
+          </div>
+      
+    </div>
+ </div> 
+    </div>
+    <script type="text/javascript">
+window.onload=function(){ 
+  var tag=document.getElementById("tag").children;
+  var content=document.getElementById("tagContent").children;
+  content[0].style.display = "block"; 
+  var len= tag.length; 
+  for(var i=0; i<len; i++)
+    { 
+    tag[i].index=i;
+    tag[i].onmouseover = function()
+        {     
+               for(var n=0; n<len; n++)
+               {
+                  tag[n].className="";
+                  content[n].style.display="none"; 
+                }
+            tag[this.index].className = "current"; 
+            content[this.index].style.display = "block";
+      } 
+   }
+}
+</script>
+<script type="text/javascript">
+    $('.creative4_l ul li').hover(function(){
+        $(this).siblings().animate({"background-positionY":-28},1);
+        $(this).animate({"background-positionY":0},1);
+    });
+</script> 
+<div class="footerArea">
+    <div id="footerArea">
+<div class="footer"> 
+    <div class="footer2 clearfix">
+      <div class="footer_model f_l">
+       
+       
+            <div class="helpCol_01 helpCol">
+        <h3>会员中心</h3>
+        <span class="blank5"></span>
+        <ul>
+                    <li><a target="_blank" href="javascript:;" title="我的购物车" class="track">我的购物车</a></li>
+                    <li><a target="_blank" href="javascript:;" title="我的订单" class="track">我的订单</a></li>
+                    <li><a target="_blank" href="javascript:;" title="我的收藏" class="track">我的收藏</a></li>
+                    <li><a target="_blank" href="javascript:;" title="个人信息" class="track">个人信息</a></li>
+                    <li><a target="_blank" href="javascript:;" title="我的评论" class="track">我的评论</a></li>
+                  </ul>
+      </div>
+       
+      
+       
+            <div class="helpCol_02 helpCol">
+        <h3>帮助中心</h3>
+        <span class="blank5"></span>
+        <ul>
+                    <li><a target="_blank" href="javascript:;" title="购物流程" class="track">购物流程</a></li>
+                    <li><a target="_blank" href="javascript:;" title="支付流程" class="track">支付流程</a></li>
+                    <li><a target="_blank" href="javascript:;" title="物流配送" class="track">物流配送</a></li>
+                    <li><a target="_blank" href="javascript:;" title="会员服务" class="track">会员服务</a></li>
+                  </ul>
+      </div>
+       
+      
+       
+            <div class="helpCol_03 helpCol">
+        <h3>服务支持</h3>
+        <span class="blank5"></span>
+        <ul>
+                    <li><a target="_blank" href="javascript:;" title="售后服务" class="track">售后服务</a></li>
+                    <li><a target="_blank" href="javascript:;" title="退款服务" class="track">退款服务</a></li>
+                    <li><a target="_blank" href="javascript:;" title="联系客服" class="track">联系客服</a></li>
+                    <li><a target="_blank" href="javascript:;" title="常见问题" class="track">常见问题</a></li>
+                  </ul>
+      </div>
+       
+      
+       
+            <div class="helpCol_04 helpCol">
+        <h3>关于我们</h3>
+        <span class="blank5"></span>
+        <ul>
+                    <li><a target="_blank" href="javascript:;" title="关于我们" class="track">关于我们</a></li>
+                    <li><a target="_blank" href="javascript:;" title="联系我们" class="track">联系我们</a></li>
+                    <li><a target="_blank" href="javascript:;" title="新闻展示" class="track">新闻展示</a></li>
+                    <li><a target="_blank" href="javascript:;" title="用户协议" class="track">用户协议</a></li>
+                  </ul>
+      </div>
+       
+      
+       
+       
+      
+            
+       
+      </div>
+      
+      <div class="footer_weinxin f_r">
+             <div class="foottel_txt">
+                服务热线<br>
+                   
+                <span class="foottel_txt_span1">400-800-8869 </span>
+                   
+                <br>
+                <span class="foottel_txt_span2">周一至周日</span>
+                <br><br>
+                     
+                     
+                       
+            </div>
+      </div>
+      
+      
+      </div>
+  </div>
+ 
+  
+  
+  
+  
+  
+  
+   <span class="blank15"></span>
+    
+<div id="bottomNav" class="box" style="display:none;">
+  <div class="box_1" style="border:none;">
+    <div class="bNavList clearfix">
+      <div class="f_l"> 
+         
+      </div>
+      <div class="f_r"> <a href="#top"><img src="public/images/bnt_top.gif" /></a> <a href="index.php"><img src="public/images/bnt_home.gif" /></a> </div>
+    </div>
+  </div>
+</div>
+<div class="blank"></div>
+<div id="footer">
+  <div class="text">  
+     
+    Tel: 400-800-8869 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <br />
+  </div>
+</div>
+<div class="copyRight">&copy; 2005-2017 禄圣电商 版权所有，并保留所有权利。  </div>
+<span class="blank20"></span>
+<div class="go-top dn" id="go-top" ><a href="javascript:;" class="go"></a></div>
+<script type="text/javascript">
+window.onload=function(){ 
+  var tag=document.getElementById("tag").children;
+  var content=document.getElementById("tagContent").children;
+  content[0].style.display = "block"; 
+  var len= tag.length; 
+  for(var i=0; i<len; i++)
+    { 
+    tag[i].index=i;
+    tag[i].onmouseover = function()
+        {     
+               for(var n=0; n<len; n++)
+               {
+                  tag[n].className="";
+                  content[n].style.display="none"; 
+                }
+            tag[this.index].className = "current"; 
+            content[this.index].style.display = "block";
+      } 
+   }
+}
+</script>
+<script>
+$(function(){
+    $(window).on('scroll',function(){
+        var st = $(document).scrollTop();
+        if( st>1000 ){
+            $('#go-top').fadeIn(function(){
+                $(this).removeClass('dn');
+                $("#go-top").show();
+            });
+        }else{
+            $('#go-top').fadeOut(function(){
+                $(this).addClass('dn');
+             
+            });
+        }   
+    });
+    $('#go-top .go').on('click',function(){
+        $('html,body').animate({'scrollTop':0},500);
+    });
+    $('#go-top .uc-2vm').hover(function(){
+        $('#go-top .uc-2vm-pop').removeClass('dn');
+    },function(){
+        $('#go-top .uc-2vm-pop').addClass('dn');
+    });
+});
+</script>
+ 
+    </div>
+</div>
+</body>
+<script>
+    $(function(){
+        
+        
+        function Options(id,cName,model){
+            this.id=$("#"+id);
+            this.li=this.id.find("."+cName).find("li");
+            this.model=this.id.find("."+model);
+            this.init();
+        }
+        Options.prototype.init=function(){
+            var that=this;
+            this.model.eq(0).css("display","block");
+            this.li.eq(0).addClass("active");
+            this.li.mouseover(function(){
+                var index=that.li.index(this);
+                that.li.removeClass("active");
+                that.li.eq(index).addClass("active");
+                that.model.css("display","none");
+                that.model.eq(index).css("display","block");
+            }); 
+        }
+        //new Options("brand_zone","brand_part","brand_model");
+        $(".today_tuijian").find("li").each(function(i){
+            if((i+1)%3==0){
+                $(this).addClass("noBorder");
+            }
+            $(this).hover(function(){
+                $(this).addClass("active");
+            },function(){
+                $(this).removeClass("active");
+            });
+        });
+        
+        $(".hot_deals").find("li").each(function(i){
+            
+            $(this).hover(function(){
+                $(this).addClass("active");
+            },function(){
+                $(this).removeClass("active");
+            });
+            
+            
+            
+            
+        });
+        
+        
+        var fn=function(){
+            var obj=$(".hot_model").find("li"),len=obj.length;
+            if(len%3==0){
+                for(var i=len-3;i<len;i++){
+                    obj.eq(i).addClass("last");
+                }
+            }else{
+                var mo=len%3;
+                for(var i=len-mo;i<len;i++){
+                    obj.eq(i).addClass("last");
+                }
+            }
+            $(".promote_model").each(function(i){
+                if((i+1)%3==0){
+                    $(this).addClass("margin0");
+                }
+            });
+        }
+        fn();
+        
+        
+        
+        var slide_move=function(){
+            var a=$(".floor_list").find("a"),arr=[];
+            a.click(function(){
+                a.removeClass("active");
+                $(this).addClass("active");
+            });
+            $(".floor_div").each(function(i){
+                arr[i]=$(this).offset().top;
+            });
+            
+            $(window).scroll(function(){
+                var t=$(document).scrollTop();
+                if(t<$("#content").offset().top){
+                    $(".slide_fixed").removeClass("apper").addClass("disapper");
+                }else{
+                    $(".slide_fixed").removeClass("disapper").addClass("apper");
+                }
+                $.each(arr,function(k,v){
+                    if(t>=v){
+                        a.removeClass("active");
+                        a.eq(k).addClass("active");
+                    }
+                });
+            });
+            
+            
+        }
+        slide_move();
+        
+        
+        var addLink=function(){
+            $(".hot_deals").find("li").each(function(i){
+                var fa=$(this).find("a:first"),la=$(this).find("a:last"),src=fa.attr("href");
+                la.attr({href:src,target:"_blank"});
+                
+            });
+        }
+        addLink();
+        
+        
+    });
+</script>
+</html>
